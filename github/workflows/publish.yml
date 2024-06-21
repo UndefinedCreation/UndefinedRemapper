@@ -1,5 +1,5 @@
 name: test-deploy-gradle-sora-plugin
-on: [pull_request, create]
+on: [commit]
 jobs:
   test-deploy-plugin:
     runs-on: ubuntu-latest
