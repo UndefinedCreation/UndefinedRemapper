@@ -20,6 +20,9 @@ dependencies {
 
 gradlePlugin {
 
+    website.set("https://github.com/UndefinedCreation")
+    vcsUrl.set("https://github.com/UndefinedCreation")
+
     plugins {
 
         create("mapper") {
