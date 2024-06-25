@@ -4,7 +4,7 @@ plugins {
     id("com.gradle.plugin-publish") version "1.2.1"
 }
 
-group = "com.undefined"
+group = "com.undefinedcreation"
 version = "0.0.3"
 
 repositories {
@@ -20,17 +20,17 @@ dependencies {
 
 gradlePlugin {
 
-    website.set("https://discord.gg/NtWa9e3vv3")
+    website.set("http://discord.undefinedcreation.com/")
     vcsUrl.set("https://github.com/UndefinedCreation/UndefinedRemapper")
 
     plugins {
 
         create("mapper") {
-            id = "com.undefined.mapper"
+            id = "com.undefinedcreation.mapper"
             displayName = "Undefined mapper"
             description = "This gradle plugin will remapped you NMS projects."
             tags = listOf("spigot", "mapping", "NMS", "mojang", "utils", "remapper")
-            implementationClass = "com.undefined.remapper.RemappingPlugin"
+            implementationClass = "com.undefinedcreation.remapper.RemappingPlugin"
         }
     }
 

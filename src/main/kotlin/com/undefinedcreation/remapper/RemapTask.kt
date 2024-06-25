@@ -1,4 +1,4 @@
-package com.undefined.remapper
+package com.undefinedcreation.remapper
 
 import org.gradle.api.DefaultTask
 import org.gradle.api.Project
