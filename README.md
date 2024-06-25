@@ -5,7 +5,7 @@ This gradle plugin is made to be able to remap you NMS project to a different ma
 ## Imports
 To import the remapped you will need to add this to your build.gradle.kts
 ```
-id("com.undefined.mapper") version "0.0.2"
+id("com.undefinedcreation.mapper") version "0.0.2"
 ```
 
 ## Setup
